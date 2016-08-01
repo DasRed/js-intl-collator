@@ -1,0 +1,16 @@
+{
+    "name": "intl-collator",
+    "homepage": "https://github.com/DasRed/js-intl-collator",
+    "main": "",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "intl": "1.*"
+    }
+}
