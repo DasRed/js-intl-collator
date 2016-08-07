@@ -1,7 +1,7 @@
 {
     "name": "intl-collator",
     "homepage": "https://github.com/DasRed/js-intl-collator",
-    "main": "",
+    "main": "Integrates the collator basic functions to the intl object.",
     "license": "MIT",
     "ignore": [
         "**/.*",
@@ -11,6 +11,6 @@
         "tests"
     ],
     "dependencies": {
-        "intl": "1.*"
+        "intl": "^1.2.4"
     }
 }

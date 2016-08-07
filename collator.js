@@ -7,10 +7,10 @@
         });
 
     } else if (typeof exports !== 'undefined') {
-        Intl.Collator = factory(root.Intl);
+        root.Intl.Collator = factory(root.Intl);
 
     } else {
-        Intl.Collator = factory(root.Intl);
+        root.Intl.Collator = factory(root.Intl);
     }
 }(this, function (Intl) {
     if (Intl.Collator !== undefined) {
