@@ -29,7 +29,7 @@
             locales = [locales];
         }
 
-        this.locales = locales.slice(0);
+        this.locales = (locales || []).slice(0);
 
         options = options || {};
         this.options = {
