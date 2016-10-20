@@ -21,8 +21,14 @@
      * create a stub
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator
-     * @param {String|Array} locales
-     * @param {Object} options
+     * @param {String|Array} [locales]
+     * @param {Object} [options]
+     * @param {String} [options.localeMatcher]
+     * @param {String} [options.usage]
+     * @param {String} [options.sensitivity]
+     * @param {Boolean} [options.ignorePunctuation]
+     * @param {Boolean} [options.numeric]
+     * @param {Boolean} [options.caseFirst]
      */
     function Collator(locales, options) {
         if (typeof locales === 'string') {
@@ -102,7 +108,7 @@
 
     /**
      * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator/resolvedOptions
-     * @returns {Object}
+     * @returns {{locale: String, usage: String, sensitivity: String, ignorePunctuation: Boolean, collation: undefined, numeric: Boolean, caseFirst: Boolean}}
      */
     Collator.prototype.resolvedOptions = function () {
         var first;
