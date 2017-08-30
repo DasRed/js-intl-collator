@@ -16,4 +16,5 @@ In all other cases, the result is
 ## Install
 ```
 bower install intl-collator --save
+npm install intl-collator --save
 ```

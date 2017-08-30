@@ -1,0 +1,19 @@
+{
+  "name": "intl-collator",
+  "version": "0.1.6",
+  "description": "Integrates the collator basic functions to the intl object.",
+  "main": "collator.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasRed/js-intl-collator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DasRed/js-intl-collator/issues"
+  },
+  "homepage": "https://github.com/DasRed/js-intl-collator#readme",
+  "dependencies": {
+      "intl": "^1.2.4"
+  }
+}
